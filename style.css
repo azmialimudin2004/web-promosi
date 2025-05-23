@@ -1,0 +1,336 @@
+/* pengaturan tampilan untuk bodynya */
+body {
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    font-family: verdana, Thoma, Helevertica;
+    font-size: 12px;
+}
+
+/* pengaturan tampilan untuk bodynya */
+#layout {
+    background:#fbfcfd;
+    width: 1000px;
+    margin: auto;
+    text-align: left;
+    padding: 2px;
+}
+
+#header {
+    width: auto;
+    height: px;
+    background-color: #fbfcfd;
+    position: relative;
+}
+
+.header {
+    width: auto;
+    height: 367px;
+}
+
+/* pengaturan tampilan untuk menu */
+#menu {
+    width: auto%;
+    padding: 40px;
+    background-color: black;
+    position: reletivel;
+}
+
+#menu ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+#menu ul li {
+    float: left;
+}
+
+#menu ul li a {
+    float: left;
+    color: #fbfffe;
+    padding: 12px 20px;
+    background: none;
+    border-left: 1px solid #3c4042;
+    border-right: 1px solid #3c4042;
+    text-shadow: 0 -1px 1px rgba(0, 0, 0, 0.6);
+}
+
+#menu ul li a:hover {
+    color: rgb(245, 248, 247);
+    background: #3c4042;
+}
+
+/* pengaturan untuk sidebar */
+#sidebar {
+    padding: 5px;
+    width: 30%;
+    background-color: white;
+    position: relative;
+    float: right;
+    border-width: 1px;
+}
+
+.widget {
+    width: 99%;
+    background-bottom: 5px;
+    background: #ffffff;
+    border-top: 1px solid #DFDFDF;
+    border-bottom: 1px solid #DFDFDF;
+    border-left: 1px solid #DFDFDF;
+    border-left: 1px solid #DFDFDF;
+    font-size: 100%;
+    margin: 0px 0px 5px 0px;
+}
+
+.iklan {
+    width: 300px;
+    height: 388px;
+}
+
+.judulwidget {
+    background: black;
+    padding: 5px 10px 5px 10px;
+    margin: center;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+
+.widget li {
+    padding: 0px 0px 0px 0px;
+    background-position: left;
+    background-repeat: no-repeat;
+    color: #333333;
+}
+
+.widget li a {
+    color: #333333;
+    border-bottom: 1px dotted #cccccc;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 5px;
+    padding: 4px 5px 3px 10px;
+}
+
+.widget li a {
+    color: #333333;
+    border-bottom: 1px dotted #cccccc;
+    text-decoration: none;
+    margin-bottom: 5px;
+    padding: 4px 5px 3px 10px;
+}
+
+.widget li a:hover {
+    color: blue;
+}
+
+/* PNEGATURAN TAMPILAN ISI POST */
+#isi {
+    padding: 5px;
+    width: 65%;
+    height: auto;
+    background-color: white;
+    position: relative;
+    margin-top: 5px;
+}
+
+.isipost {
+    background-color: white;
+    width: 98%;
+    height: auto;
+    margin-bottom: 5px;
+    padding: 5px;
+}
+
+.gambardepan {
+    float: left;
+    height: 98%;
+    width: 105px;
+    margin-right: 5px;
+    margin-top: 3px;
+    padding: 1px;
+    border: 1px solid #dddddd;
+}
+
+.isipost h2 {
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    margin-top: 4px;
+    margin-bottom: 3px;
+}
+
+/* PENGATURAN FOOTER */
+#footer {
+    width: 100%;
+    height: 50px;
+    margin-top: 5px;
+    padding-top: 30;
+    background-color: black;
+    color: white;
+    font-size: 12pt;
+    text-align: center;
+    position: relative;
+    clear: both;
+}
+
+.product {
+    border: 2px solid #ddd;
+    padding: 10px;
+    margin-bottom: 20px;
+    width: 320px;
+    text-align: center;
+    position: relative;
+}
+.product img {
+    width: 300px;
+    height: 198px;
+    object-fit: cover;
+}
+ /* Layout for the product images */
+ .product-container {
+     display: grid;
+     grid-template-columns: repeat(3, 1fr);
+     /* Create 3 equal columns */
+     gap: 20px;
+     /* Space between items */
+     margin-top: 20px;
+ }
+
+ .product {
+     border: 2px solid #ddd;
+     padding: 10px;
+     text-align: center;
+ }
+
+ .product img {
+     width: 100%;
+     height: auto;
+     object-fit: contain;
+ }
+
+ /* Aligning the last row to the right */
+ .right-align {
+     display: grid;
+     grid-template-columns: 1fr 1fr 1fr;
+     /* Same 3-column layout */
+     gap: 20px;
+     justify-items: end;
+     /* Align items to the right */
+ }
+
+ /* Optional: Center all products in their container */
+ .product-container,
+ .right-align {
+     justify-items: center;
+ }
+ #contact {
+     padding: 20px;
+     background-color: #f9f9f9;
+     margin-top: 40px;
+     border-radius: 8px;
+     max-width: 600px;
+     font-family: Arial, sans-serif;
+ }
+
+ #contact h2 {
+     margin-bottom: 10px;
+     color: #333;
+ }
+
+ #contact p {
+     color: #555;
+ }
+
+ #contact form {
+     display: flex;
+     flex-direction: column;
+     gap: 10px;
+     margin-bottom: 20px;
+ }
+
+ #contact input[type="text"],
+ #contact input[type="email"],
+ #contact textarea {
+     padding: 10px;
+     border-radius: 4px;
+     border: 1px solid #ccc;
+     font-size: 14px;
+ }
+
+ #contact button {
+     padding: 10px;
+     border: none;
+     border-radius: 4px;
+     background-color: #333;
+     color: white;
+     cursor: pointer;
+     font-size: 16px;
+     transition: background-color 0.3s ease;
+ }
+
+ #contact button:hover {
+     background-color: #555;
+ }
+
+ #contact a {
+     color: #333;
+     text-decoration: none;
+ }
+
+ #contact a:hover {
+     text-decoration: underline;
+ }
+
+ .produk-images {
+     display: flex;
+     gap: 10px;
+     margin-top: 20px;
+ }
+
+ .produk-images img {
+     width: 120px;
+     border-radius: 8px;
+     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+ }
+ .product-grid {
+     display: grid;
+     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+     gap: 20px;
+     padding: 20px;
+ }
+
+ .product-card {
+     background-color: #f9f9f9;
+     padding: 15px;
+     border-radius: 10px;
+     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+     text-align: center;
+     transition: transform 0.3s ease, box-shadow 0.3s ease;
+ }
+
+ .product-card:hover {
+     transform: scale(1.05);
+     box-shadow: 0px 8px 12px rgba(0, 0, 0, 0.15);
+ }
+
+ .product-image img {
+     width: 100%;
+     height: auto;
+     border-radius: 8px;
+     margin-bottom: 10px;
+ }
+
+ .product-details {
+     font-size: 14px;
+ }
+
+ #checkout {
+     margin-top: 30px;
+     padding: 20px;
+     background-color: #fafafa;
+     border-radius: 10px;
+     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+ }
